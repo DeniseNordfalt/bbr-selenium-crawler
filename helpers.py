@@ -8,5 +8,3 @@ def write_csv(user_data, csv_filename):
             csv_writer.writeheader()
             for user_info in user_data:
                 csv_writer.writerow(user_info)
-
-
